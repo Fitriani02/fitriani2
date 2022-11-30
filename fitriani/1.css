@@ -1,0 +1,155 @@
+body {
+    background-image: url(01.png);
+    background-size: 100% 100%;
+    margin: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    font-family: tahoma;
+    font-weight: bold;
+    height: 70px;
+    width: 100%;
+    background: green;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+.menu img {
+    height: 70px;
+    width: auto;
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 5px;
+    background: none;
+    display: block;
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #ddd;
+}
+
+.menu ul li a:hover {
+    display: block;
+    color: rgb(5, 5, 5);
+    background: rgb(253, 250, 250);
+    box-shadow: inset 0px 0px 5px #000;
+}
+
+.menu ul li .dropdown {
+   display: none;
+}
+
+.menu ul li:hover .dropdown {
+    display: block;
+    background: green;
+    position: absolute;
+    padding: 10px;
+}
+
+.menu ul li:hover .dropdown li {
+    display: block;
+}
+
+.menu ul li :hover .dropdown li a {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.menu ul li :hover .dropdown li a:hover {
+    background: #222;
+    box-shadow: inset 0px 0px 5px #000;
+}
+.image{
+    padding: 100px;
+    text-align: center;
+    text-size-adjust: 20px;
+    background-color: tahoma;
+}
+.image img{
+    padding: 20px;
+    width:  200px ;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+.image h1{
+    text-align: center;
+    border:3px solid #000;
+    color: #ddd;
+    background-color: #000;
+}
+.image h3{
+    align-items: center;
+    border:3px solid #000;
+    color: #ddd;
+    background-color: #000;
+}
+.video{
+    padding: 0px;
+    text-align: center;
+}
+.video video{
+    padding: 50px;
+    width: 600px;
+    height: auto;
+    margin-right: 5px;
+}
+.video h3{
+    border: 3px solid #000;
+    background-color: #000;
+    color: #ddd;
+}
+.comment{
+    width: 50%;
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+    font-family: 'poppins', sans-serif;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-top: 8opx;
+    box-shadow: 0px 0px 10px 1px rgb(165, 165, 165,);
+}
+.comment p{
+    text-align: left;
+    font-size: 28px;
+    color: #777;
+}
+.comment-form input, .comment-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 18px;
+    font-family: 'poppins', sans-serif;
+    border: 1px solid #dddd;
+}
+.comment-form button{
+    margin: 10px 0;
+    border: none;
+    background-color: #d0d0d0;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 3px;
+    color: #444;
+}
+button:hover{
+    color: white;
+    background-color: #444;
+}
